@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    border: 2px solid rgb(115, 255, 0);
+    margin: 10px;
+}
+.class1{
+    font-size: xxx-large;
+    font-family: math;
+    padding: 25px;
+    text-align: center;
+}
+
+#box1{
+    transition: width 2s;
+}
+#box1:hover{
+    width: 300px;
+}
+#box2{
+    transition: width 2s , height 2s;
+}
+#box2:hover{
+    width: 300px;
+    height: 300px;
+}
+#box3{
+    transition: width 2s;
+    transition-timing-function: linear;
+}
+#box3:hover{
+    width: 300px;
+}
+#box4{
+    transition: width 2s;
+    transition-timing-function: ease;
+}
+#box4:hover{
+    width: 300px;
+}
+#box5{
+    transition: width 2s;
+    transition-timing-function: ease-in;
+}
+#box5:hover{
+    width: 300px;
+}
+#box6{
+    transition: width 2s;
+    transition-timing-function: ease-out;
+}
+#box6:hover{
+    width: 300px;
+}
+#box7{
+    transition: width 2s;
+    transition-timing-function: linear;
+}
+#box7:hover{
+    width: 300px;
+}
+.back{
+    font-size: larger;
+}
+.next{
+    font-size: larger;
+}
+

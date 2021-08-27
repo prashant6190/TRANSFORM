@@ -1,0 +1,117 @@
+.first{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:  yellow;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.box1{
+border-color: aqua;
+height: 100px;
+width: 100px;
+background-color: rgba(255, 0, 34, 0.445);
+display: inline-block;
+margin: 40px 40px 0;
+transform: skew(-20deg);
+animation: box1 1s infinite alternate running ;
+
+}
+@keyframes box1{
+    100% {
+        transform: skew(20deg);
+    }
+}
+.box1a{
+    border-color: aqua;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(21, 255, 0);
+    display: inline-block;
+    margin: 40px 40px 0;
+    transform: skew(-20deg);
+    animation: box1a 1s infinite alternate running;
+}
+@keyframes box1a{
+    100%{
+        transform: skew(20deg);
+    }
+}
+
+.box1b{
+border-color: aqua;
+height: 100px;
+width: 100px;
+display: inline-block;
+margin: 40px 40px 0;
+transform: rotate(-360deg);
+background-color: cornflowerblue;
+animation: box1b 3s linear infinite;
+animation-timing-function: ease-out;
+}
+
+@keyframes box1b{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.foxbox1{
+border-color: aqua;
+height: 100px;
+width: 100px;
+display: inline-block;
+margin: 40px 40px 0;
+background-color: rgb(85, 72, 0);
+animation: foxbox1 2s linear infinite ;
+}
+@keyframes foxbox1{
+    50% {
+        transform: rotate(0deg) scaleY(0.5);
+    
+    }
+}
+.foxbox2{
+    border-color: aqua;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 40px 40px 0;
+    background-color: rgb(60, 153, 68);
+    animation: foxbox2 2s linear infinite ; 
+}
+@keyframes foxbox2{
+    50% {
+        transform: rotate(0deg) scaleX(0.5);
+    
+    }
+}
+.foxbox3{
+    border-color: aqua;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 40px 40px 0;
+    background-color: rgb(66, 60, 153);
+    transform: rotate(-180deg);
+    animation: foxbox3 2s linear infinite ;
+    animation-timing-function: ease-in; 
+}
+@keyframes foxbox3{
+        100% {
+            transform: rotate(180deg);
+        }
+    }
+    .class3{
+    font-size: larger;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
