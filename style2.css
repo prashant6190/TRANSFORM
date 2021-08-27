@@ -92,7 +92,7 @@ body{
 .wheel{
     display: flex;
     bottom: 175px;
-    left: 35%;
+    left: 39%;
     right: 35%;
     z-index: 1;
     position: absolute;
